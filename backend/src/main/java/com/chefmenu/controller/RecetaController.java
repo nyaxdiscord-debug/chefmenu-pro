@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/recetas")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "https://*.vercel.app", "https://*.onrender.com"})
 public class RecetaController {
 
     private final RecetaService recetaService;

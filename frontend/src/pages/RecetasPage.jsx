@@ -57,6 +57,11 @@ export const RecetasPage = () => {
     }
   }
 
+  const handlePorcionesChange = (e) => {
+    const nuevasPorciones = parseInt(e.target.value) || 1
+    setPorciones(nuevasPorciones)
+  }
+
   const handleEdit = (receta) => {
     setEditingReceta(receta)
     setFormData({

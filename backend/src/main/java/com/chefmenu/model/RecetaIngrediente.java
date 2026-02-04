@@ -26,6 +26,9 @@ public class RecetaIngrediente {
     @JoinColumn(name = "ingrediente_id")
     private Ingrediente ingrediente;
 
+    @Column(name = "ingrediente_id", insertable = false, updatable = false)
+    private Long ingredienteId;
+
     @Column(nullable = false, precision = 8, scale = 2)
     private BigDecimal cantidad;
 

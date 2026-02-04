@@ -115,18 +115,18 @@ export const DashboardPage = () => {
           )}
         </div>
 
-        <div className="card">
-          <h2 className="text-xl font-bold mb-4">Grafica Costes vs Ingresos</h2>
-          <div className="h-64 flex items-center justify-center bg-gray-50 rounded-lg">
-            <p className="text-gray-600">Gráfico de ejemplo (próximamente con Recharts)</p>
+          <div className="card">
+            <h2 className="text-xl font-bold mb-4">Gráfica Costes vs Ingresos</h2>
+            <div className="h-64 flex items-center justify-center bg-gray-50 rounded-lg">
+              <p className="text-gray-600">Gráfico de ejemplo (próximamente con Recharts)</p>
+            </div>
           </div>
-        </div>
       </div>
 
       <div className="card">
         <h2 className="text-xl font-bold mb-4">Menú de Esta Semana</h2>
         <div className="grid grid-cols-7 gap-2 text-center">
-          {['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'].map((dia) => (
+          {['Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', 'Dom'].map((dia) => (
             <div key={dia} className="p-2 bg-primary-50 rounded-lg">
               <p className="font-medium text-primary-700">{dia}</p>
               <p className="text-sm text-gray-600 mt-1">13:00</p>

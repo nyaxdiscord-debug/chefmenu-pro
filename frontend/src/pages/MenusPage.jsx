@@ -5,12 +5,12 @@ export const MenusPage = () => {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Menús</h1>
-          <p className="text-gray-600 mt-1">Planifica tus menús semanales con drag-and-drop</p>
+          <h1 className="text-3xl font-bold text-gray-900">Menus</h1>
+          <p className="text-gray-600 mt-1">Planifica tus menus semanales con drag-and-drop</p>
         </div>
         <button className="btn btn-primary flex items-center space-x-2">
           <Plus className="h-5 w-5" />
-          <span>Nuevo Menú</span>
+          <span>Nuevo Menu</span>
         </button>
       </div>
 

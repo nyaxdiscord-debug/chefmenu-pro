@@ -13,8 +13,6 @@ public interface IngredienteRepository extends JpaRepository<Ingrediente, Long> 
 
     List<Ingrediente> findByUsuarioId(Long usuarioId);
 
-    List<Ingrediente> findByUsuarioIdAndStockActualLessThanAlertaStock(Long usuarioId, BigDecimal alertaStock);
-
     @Query("SELECT i FROM Ingrediente i WHERE i.usuario.id = :usuarioId AND i.stockActual < i.alertaStock")
     List<Ingrediente> findIngredientesConStockBajo(Long usuarioId);
 
