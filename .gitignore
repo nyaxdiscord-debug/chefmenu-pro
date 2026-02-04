@@ -1,0 +1,48 @@
+# Backend
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+.mvn/
+mvnw
+mvnw.cmd
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
